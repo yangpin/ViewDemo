@@ -1,4 +1,4 @@
-###通过一个简单的自定义的View,模仿华为健康里面消耗热量和计步的圆弧View,来深入的理解RectF以及 canvas的drawArc方法。
+通过一个简单的自定义的View,模仿华为健康里面消耗热量和计步的圆弧View,来深入的理解RectF以及 canvas的drawArc方法。
 
 华为健康的View是这样的：
 
@@ -107,11 +107,8 @@ Rect的坐标点为int值，所以精度就没有RectF高了，RectF的构造函
         canvas.drawText(textTop, centerX, textY, paint);
     }
 
-至此，这个简单的自定义View 已经写完了，之所以写这篇文章，是因为两点有猫腻的地方，一个是RectF的坐标点的定义,还有一个是canvas的drawArc 方法。现在只是个简单的view，并没有实现计步的功能。后续再完善。
+至此，这个简单的自定义View 已经写完了，之所以写这篇文章，是因为两点有猫腻的地方，一个是RectF的坐标点的定义,还有一个是canvas的drawArc 方法。
 
-
-源码传送门：
-[https://github.com/yangpin/superBinder](https://github.com/yangpin/superBinder)
 
 
 
