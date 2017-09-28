@@ -1,12 +1,12 @@
-通过一个简单的自定义的View,模仿华为健康里面消耗热量和计步的圆弧View,来深入的理解RectF以及 canvas的drawArc方法。
+###通过一个简单的自定义的View,模仿华为健康里面消耗热量和计步的圆弧View,来深入的理解RectF以及 canvas的drawArc方法。
 
 华为健康的View是这样的：
+<img src="https://i.imgur.com/O3Hp98B.png" width=440 height=800 />
 
-![目标效果](https://i.imgur.com/O3Hp98B.png)
 
 最近写了一些自定义的view，其中用到RectF,Rect的地方比较多，于是有了这篇文章，来深入理解下RectF对象。先上效果图：
+<img src="https://i.imgur.com/pmaS1Wp.png" width=440 height=800 />
 
-![效果图](https://i.imgur.com/pmaS1Wp.png)
 
 效果还是有点不太一样，但是别太在意那些细节了。。。
 
@@ -108,7 +108,6 @@ Rect的坐标点为int值，所以精度就没有RectF高了，RectF的构造函
     }
 
 至此，这个简单的自定义View 已经写完了，之所以写这篇文章，是因为两点有猫腻的地方，一个是RectF的坐标点的定义,还有一个是canvas的drawArc 方法。
-
 
 
 
